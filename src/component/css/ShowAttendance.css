@@ -1,0 +1,33 @@
+/* ShowAttendance.css */
+.attendance-container {
+    margin: 20px;
+  }
+  
+  .welcome-message {
+    color: blue;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  

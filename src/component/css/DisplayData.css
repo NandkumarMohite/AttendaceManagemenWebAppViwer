@@ -1,0 +1,76 @@
+/* DisplayUserData.css */
+.card {
+    /* background-color: rgb(127, 235, 125); */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h3 {
+    color: #73e684;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: rgb(46, 205, 51);
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(127, 236, 140);
+  }
+  
+  tr:hover {
+    background-color: rgb(127, 236, 140);
+  }
+  
+  /* Add this to your DisplayData.css or create a new CSS file */
+
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-item {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .page-link {
+    padding: 8px 12px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .page-item.active .page-link {
+    
+    color:black;
+    border: 1px solid #007bff;
+  }
+  
