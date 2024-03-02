@@ -41,6 +41,14 @@ const ShowAttendance = () => {
           singInTime: convertToIndianTime(user.singInTime),
           signOutTime: convertToIndianTime(user.signOutTime),
         }));
+        convertedData.forEach((obj, index) => {
+          if (obj.singInTime === 'Invalid date' && obj.signOutTime === 'Invalid date') {
+            obj.singInTime = obj.signOutTime = 'Absent';
+          }
+          if (obj.singInTime !== 'Invalid date' && obj.signOutTime === 'Invalid date') {
+            obj.signOutTime = 'Session is Alive';
+          }
+        });
         setUserData(convertedData);
         setLoading(false);
       })
